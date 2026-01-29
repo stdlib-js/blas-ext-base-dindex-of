@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+dindexOf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dindex-of@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dindex-of/tags). For example,
+
+```javascript
 dindexOf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dindex-of@v0.1.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var dindexOf = require( 'path/to/vendor/umd/blas-ext-base-dindex-of/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dindex-of@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dindex-of@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -194,7 +199,7 @@ var idx = dindexOf.ndarray( 3, 3.0, x, 1, x.length-3 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dindex-of@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dindex-of@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
