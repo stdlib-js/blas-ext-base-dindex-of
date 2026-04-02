@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-23)
+## Unreleased (2026-04-02)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`005bc76`](https://github.com/stdlib-js/stdlib/commit/005bc7603d9898b0fd9a9d3f13e0666645711af5) - **bench:** fix benchmark name _(by Athan Reines)_
 -   [`ad0f0a5`](https://github.com/stdlib-js/stdlib/commit/ad0f0a54f142e137f1522929a5d6dd8bb32280c8) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dindex-of` [(#10613)](https://github.com/stdlib-js/stdlib/pull/10613) _(by Prajjwal Bajpai)_
 -   [`f411fa5`](https://github.com/stdlib-js/stdlib/commit/f411fa53fac2c98be1d464cf9b5b2d6677653606) - **bench:** refactor to use string interpolation in `blas/ext/base/dindex-of` [(#10614)](https://github.com/stdlib-js/stdlib/pull/10614) _(by Prajjwal Bajpai)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Prajjwal Bajpai
 
 </section>
