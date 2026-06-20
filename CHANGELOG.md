@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-04)
+## Unreleased (2026-06-20)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`aa598c9`](https://github.com/stdlib-js/stdlib/commit/aa598c929946d8083d945a9cc47400b86aabd358) - **chore:** propagate fixes across `blas/ext/base` and `regexp` [(#12970)](https://github.com/stdlib-js/stdlib/pull/12970) _(by Philipp Burckhardt)_
 -   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
 -   [`35566af`](https://github.com/stdlib-js/stdlib/commit/35566af0add64775e60422fd16e50e1bec3947e7) - **docs:** fix C examples in READMEs [(#11229)](https://github.com/stdlib-js/stdlib/pull/11229) _(by anee3, Athan Reines)_
 -   [`005bc76`](https://github.com/stdlib-js/stdlib/commit/005bc7603d9898b0fd9a9d3f13e0666645711af5) - **bench:** fix benchmark name _(by Athan Reines)_
